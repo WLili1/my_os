@@ -50,7 +50,7 @@ mk_dir:
 
 hd:
 	dd if=$(BUILD_DIR)/kernel.bin \
-           of=/home/work/my_workspace/bochs/hd60M.img \
+           of=/home/wang/bochs/bin/hd60M.img \
            bs=512 count=200 seek=9 conv=notrunc
 
 clean:

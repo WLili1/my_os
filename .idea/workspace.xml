@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/device/timer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/device/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kernel/debug.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kernel/debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/comp.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/interrupt.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/interrupt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/interrupt.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/interrupt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +52,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -65,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1638889011018</updated>
       <workItem from="1638889016546" duration="3824000" />
-      <workItem from="1638970054086" duration="3010000" />
+      <workItem from="1638970054086" duration="3231000" />
+      <workItem from="1639014482067" duration="3987000" />
     </task>
     <servers />
   </component>

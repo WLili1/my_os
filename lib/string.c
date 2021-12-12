@@ -14,7 +14,7 @@ void memset(void* dst_, uint8_t value, uint32_t size) {
 void memcpy(void* dst_, const void* src_, uint32_t size) {
     ASSERT(dst_ != NULL && src_ != NULL);
     uint8_t* dst = dst_;
-    const uint8_t src = src_;
+    uint8_t src = src_;
     while(size-- > 0)
         *dst++ = *src++;
 }

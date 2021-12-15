@@ -1,6 +1,6 @@
 #include "print.h"
 #include "init.h"
-#include "thread.h"
+#include "../thread/thread.h"
 #include "interrupt.h"
 
 void k_thread_a(void*);

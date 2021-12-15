@@ -3,7 +3,7 @@
 #include "interrupt.h"
 #include "../device/timer.h"
 #include "memory.h"
-#include "thread.h"
+#include "../thread/thread.h"
 
 void init_all() {
     put_str("init_all\n");

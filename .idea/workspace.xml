@@ -6,7 +6,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="" />
+    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/device/keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device/keyboard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/interrupt.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/interrupt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/kernel.S" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/kernel.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +68,7 @@
       <workItem from="1638889016546" duration="3824000" />
       <workItem from="1638970054086" duration="3231000" />
       <workItem from="1639014482067" duration="32593000" />
-      <workItem from="1639654010355" duration="2531000" />
+      <workItem from="1639654010355" duration="3342000" />
     </task>
     <servers />
   </component>

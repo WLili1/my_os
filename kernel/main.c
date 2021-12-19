@@ -17,8 +17,8 @@ int main(void) {
 
     thread_start("k_thread_a", 31, k_thread_a, "argA ");
     thread_start("k_thread_b", 31, k_thread_b, "argB ");
-//    process_execute(u_prog_a, "user_prog_a");
-//    process_execute(u_prog_b, "user_prog_b");
+    process_execute(u_prog_a, "user_prog_a");
+    process_execute(u_prog_b, "user_prog_b");
 
     intr_enable();
     while(1) ;

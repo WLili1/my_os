@@ -7,6 +7,7 @@
 #include "../device/console.h"
 #include "../device/keyboard.h"
 #include "../userprog/tss.h"
+#include "../userprog/syscall-init.h"
 
 void init_all() {
     put_str("init_all\n");
@@ -17,4 +18,5 @@ void init_all() {
     console_init(); //控制台初始化最好放在开中断之前
     keyboard_init();
     tss_init();
+    syscall_init();
 }

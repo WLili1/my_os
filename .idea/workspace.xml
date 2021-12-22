@@ -6,7 +6,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="" />
+    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/stdio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stdio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/user/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/user/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprog/syscall-init.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/syscall-init.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +69,7 @@
       <workItem from="1638970054086" duration="3231000" />
       <workItem from="1639014482067" duration="32593000" />
       <workItem from="1639654010355" duration="16219000" />
-      <workItem from="1640016516817" duration="2035000" />
+      <workItem from="1640016516817" duration="6102000" />
     </task>
     <servers />
   </component>

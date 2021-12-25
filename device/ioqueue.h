@@ -1,6 +1,6 @@
 #ifndef __DEVICE_IOQUEUE_H
 #define __DEVICE_IOQUEUE_H
-#include "stdint.h"
+#include "../lib/stdint.h"
 #include "../thread/thread.h"
 #include "../thread/sync.h"
 

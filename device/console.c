@@ -1,6 +1,6 @@
 #include "console.h"
 #include "../lib/kernel/print.h"
-#include "stdint.h"
+#include "../lib/stdint.h"
 #include "../thread/sync.h"
 #include "../thread/thread.h"
 static struct lock console_lock;    // 控制台锁

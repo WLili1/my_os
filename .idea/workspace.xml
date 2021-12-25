@@ -6,7 +6,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="" />
+    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/memory.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/memory.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/memory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/thread/thread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprog/process.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/process.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

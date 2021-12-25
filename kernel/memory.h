@@ -2,6 +2,7 @@
 #define __KERNEL_MEMORY_H
 #include "../lib/stdint.h"
 #include "../lib/kernel/bitmap.h"
+#include "../lib/kernel/list.h"
 
 /* 内存池标记,用于判断用哪个内存池 */
 enum pool_flags {

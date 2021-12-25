@@ -50,7 +50,8 @@ void k_thread_b(void* arg) {
 
 /* 测试用户进程 */
 void u_prog_a(void) {
-    printf(" prog_a_pid:0x%x\n", getpid());
+    uint32_t pid = getpid();
+    printf(" prog_a_pid:0x%x\n", pid);
     while(1);
 }
 

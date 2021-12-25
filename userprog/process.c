@@ -2,7 +2,7 @@
 #include "../kernel/global.h"
 #include "../kernel/debug.h"
 #include "../kernel/memory.h"
-#include "../thread/thread.h"
+#include "thread.h"
 #include "../lib/kernel/list.h"
 #include "tss.h"
 #include "../kernel/interrupt.h"

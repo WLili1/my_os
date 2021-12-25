@@ -57,14 +57,14 @@ void k_thread_b(void* arg) {
 
 /* 测试用户进程 */
 void u_prog_a(void) {
-    char* name = "prog_a";
-    prog_a_pid = getpid();
+    char* name = "wang_prog_1";
+    write(name);
     while(1);
 }
 
 /* 测试用户进程 */
 void u_prog_b(void) {
-    char* name = "prog_a";
-    prog_b_pid = getpid();
+    char* name = "wang_prog_2";
+    write(name)
     while(1);
 }

@@ -1,12 +1,11 @@
 #include "process.h"
 #include "../kernel/global.h"
 #include "../kernel/debug.h"
-#include "../kernel/memory.h"
-#include "../kernel/thread.h"
 #include "../lib/kernel/list.h"
 #include "tss.h"
 #include "../kernel/interrupt.h"
 #include "../lib/string.h"
+#include "../thread/thread.h"
 #include "../device/console.h"
 
 extern void intr_exit(void);

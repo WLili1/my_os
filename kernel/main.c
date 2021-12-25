@@ -24,8 +24,8 @@ int main(void) {
     console_put_str(" main_pid:0x");
     console_put_int(sys_getpid());
     console_put_char('\n');
-//    thread_start("k_thread_a", 31, k_thread_a, "argA ");
-//    thread_start("k_thread_b", 31, k_thread_b, "argB ");
+    thread_start("k_thread_a", 31, k_thread_a, "argA ");
+    thread_start("k_thread_b", 31, k_thread_b, "argB ");
     while(1) ;
     return 0;
 }

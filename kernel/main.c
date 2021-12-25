@@ -6,13 +6,12 @@
 #include "../userprog/process.h"
 #include "../userprog/syscall-init.h"
 #include "../lib/user/syscall.h"
-//#include "../lib/stdio.h"
+#include "../lib/stdio.h"
 
 void k_thread_a(void*);
 void k_thread_b(void*);
 void u_prog_a(void);
 void u_prog_b(void);
-int prog_a_pid = 0, prog_b_pid = 0;
 
 int main(void) {
     put_str("I am kernel\n");
@@ -37,9 +36,6 @@ void k_thread_a(void* arg) {
     console_put_str(" thread_a_pid:0x");
     console_put_int(sys_getpid());
     console_put_char('\n');
-    console_put_str(" prog_a_pid:0x");
-    console_put_int(prog_a_pid);
-    console_put_char('\n');
     while(1);
 }
 
@@ -49,22 +45,17 @@ void k_thread_b(void* arg) {
     console_put_str(" thread_b_pid:0x");
     console_put_int(sys_getpid());
     console_put_char('\n');
-    console_put_str(" prog_b_pid:0x");
-    console_put_int(prog_b_pid);
-    console_put_char('\n');
     while(1);
 }
 
 /* 测试用户进程 */
 void u_prog_a(void) {
-    char* name = "wang_prog_1";
-    write(name);
+    printf(" prog_a_pid:0x%x\n", getpid());
     while(1);
 }
 
 /* 测试用户进程 */
 void u_prog_b(void) {
-    char* name = "wang_prog_2";
-    write(name);
+    printf(" prog_a_pid:0x%x\n", getpid());
     while(1);
 }

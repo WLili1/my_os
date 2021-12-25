@@ -208,6 +208,7 @@ void* get_a_page(enum pool_flags pf, uint32_t vaddr) {
 
     void* page_phyaddr = palloc(mem_pool);
     if (page_phyaddr == NULL) {
+        lock_release(&mem_pool->lock);
         return NULL;
     }
     page_table_add((void*)vaddr, page_phyaddr);

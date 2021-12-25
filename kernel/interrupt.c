@@ -30,8 +30,13 @@ static void make_idt_desc(struct gate_desc* p_gdesc, uint8_t attr, intr_handler 
 static struct gate_desc idt[IDT_DESC_CNT];   //中断描述符表
 
 char* intr_name[IDT_DESC_CNT];      //保存异常名
+
+/********    定义中断处理程序数组    ********
+ * 在kernel.S中定义的intrXXentry只是中断处理程序的入口,
+ * 最终调用的是ide_table中的处理程序*/
 intr_handler idt_table[IDT_DESC_CNT];
-extern intr_handler intr_entry_table[IDT_DESC_CNT];     //声明引用定义在kernel.S中的中断处理函数入口数组
+/********************************************/
+extern intr_handler intr_entry_table[IDT_DESC_CNT];	    // 声明引用定义在kernel.S中的中断处理函数入口数组
 
 /* 初始化可编程中断控制器8259A */
 static void pic_init(void) {

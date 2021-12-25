@@ -17,7 +17,7 @@ int main(void) {
     put_str("I am kernel\n");
     init_all();
 
-//    process_execute(u_prog_a, "user_prog_a");
+    process_execute(u_prog_a, "user_prog_a");
 //    process_execute(u_prog_b, "user_prog_b");
 
     intr_enable();

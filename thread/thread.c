@@ -19,7 +19,7 @@ static struct list_elem* thread_tag;// 用于保存队列中的线程结点
 extern void switch_to(struct task_struct* cur, struct task_struct* next);
 
 /* 系统空闲时运行的线程 */
-static void idle(void* arg UNUSED) {
+static void idle(void* arg) {
     while(1) {
         thread_block(TASK_BLOCKED);
         //执行hlt时必须要保证目前处在开中断的情况下

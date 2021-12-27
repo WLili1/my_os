@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/device/ide.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device/ide.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kernel/stdio-kernel.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kernel/stdio-kernel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprog/syscall-init.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/syscall-init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/interrupt.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/interrupt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <workItem from="1639654010355" duration="16219000" />
       <workItem from="1640016516817" duration="6417000" />
       <workItem from="1640415306818" duration="4600000" />
-      <workItem from="1640454456930" duration="967000" />
+      <workItem from="1640454456930" duration="2657000" />
     </task>
     <servers />
   </component>

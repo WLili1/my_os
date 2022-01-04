@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fs/dir.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/fs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/fs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/inode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fs/super_block.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/thread/thread.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <workItem from="1639654010355" duration="16219000" />
       <workItem from="1640016516817" duration="6417000" />
       <workItem from="1640415306818" duration="4600000" />
-      <workItem from="1640454456930" duration="6108000" />
+      <workItem from="1640454456930" duration="10960000" />
     </task>
     <servers />
   </component>

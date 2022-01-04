@@ -4,6 +4,7 @@
 #include "../thread/sync.h"
 #include "../lib/kernel/bitmap.h"
 #include "../lib/kernel/list.h"
+#include "../fs/super_block.h"
 
 /* 分区结构 */
 struct partition {

@@ -6,6 +6,7 @@
 #include "../device/console.h"
 #include "../lib/string.h"
 #include "../kernel/memory.h"
+#include "../fs/fs.h"
 
 #define syscall_nr 32 
 typedef void* syscall;

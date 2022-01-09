@@ -35,7 +35,7 @@ int main(void) {
     char buf[64] = {0};
 
     memset(buf, 0, 64);
-    read_bytes = sys_read(fd, buf, 24);
+    int read_bytes = sys_read(fd, buf, 24);
     printf("4_ read %d bytes:\n%s", read_bytes, buf);
 
     sys_close(fd);
@@ -45,15 +45,15 @@ int main(void) {
     printf("/dir1/subdir1 create %s!\n", sys_mkdir("/dir1/subdir1") == 0 ? "done" : "fail");
     printf("/dir1 create %s!\n", sys_mkdir("/dir1") == 0 ? "done" : "fail");
     printf("now, /dir1/subdir1 create %s!\n", sys_mkdir("/dir1/subdir1") == 0 ? "done" : "fail");
-    int fd = sys_open("/dir1/subdir1/file2", O_CREAT|O_RDWR);
-    if (fd != -1) {
+    int fd1 = sys_open("/dir1/subdir1/file2", O_CREAT|O_RDWR);
+    if (fd1 != -1) {
         printf("/dir1/subdir1/file2 create done!\n");
-        sys_write(fd, "Catch me if you can!\n", 21);
-        sys_lseek(fd, 0, SEEK_SET);
-        char buf[32] = {0};
-        sys_read(fd, buf, 21);
-        printf("/dir1/subdir1/file2 says:\n%s", buf);
-        sys_close(fd);
+        sys_write(fd1, "Catch me if you can!\n", 21);
+        sys_lseek(fd1, 0, SEEK_SET);
+        char buf1[32] = {0};
+        sys_read(fd1, buf1, 21);
+        printf("/dir1/subdir1/file2 says:\n%s", buf1);
+        sys_close(fd1);
     }
    while(1);
    return 0;

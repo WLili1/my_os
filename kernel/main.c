@@ -31,14 +31,14 @@ int main(void) {
     sys_close(fd);
 
 //    *************************************
-    uint32_t fd = sys_open("/file1", O_RDWR);
+    uint32_t fd2 = sys_open("/file1", O_RDWR);
     char buf[64] = {0};
 
     memset(buf, 0, 64);
-    int read_bytes = sys_read(fd, buf, 24);
+    int read_bytes = sys_read(fd2, buf, 24);
     printf("4_ read %d bytes:\n%s", read_bytes, buf);
 
-    sys_close(fd);
+    sys_close(fd2);
 
 
 //  *******************************************

@@ -51,6 +51,12 @@ static pid_t allocate_pid(void) {
    return next_pid;
 }
 
+/* fork进程时为其分配pid,因为allocate_pid已经是静态的,别的文件无法调用.
+不想改变函数定义了,故定义fork_pid函数来封装一下。*/
+pid_t fork_pid(void) {
+    return allocate_pid();
+}
+
 /* 初始化线程栈thread_stack,将待执行的函数和参数放到thread_stack中相应的位置 */
 void thread_create(struct task_struct* pthread, thread_func function, void* func_arg) {
    /* 先预留中断使用栈的空间,可见thread.h中定义的结构 */
@@ -96,6 +102,7 @@ void init_thread(struct task_struct* pthread, char* name, int prio) {
         fd_idx++;
     }
    pthread->cwd_inode_nr = 0;	    // 以根目录做为默认工作路径
+    pthread->parent_pid = -1;        // -1表示没有父进程
    pthread->stack_magic = 0x19870916;	  // 自定义的魔数
 }
 
@@ -209,6 +216,9 @@ void thread_init(void) {
    list_init(&thread_ready_list);
    list_init(&thread_all_list);
    lock_init(&pid_lock);
+
+    /* 先创建第一个用户进程:init */
+    process_execute(init, "init");         // 放在第一个初始化,这是第一个进程,init进程的pid为1
 
 /* 将当前main函数创建为线程 */
    make_main_thread();

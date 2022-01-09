@@ -8,6 +8,8 @@
 #include "../kernel/memory.h"
 #include "../userprog/process.h"
 #include "sync.h"
+#include "../lib/user/syscall.h"
+#include "../lib/stdio.h"
 
 struct task_struct* main_thread;    // 主线程PCB
 struct task_struct* idle_thread;    // idle线程
@@ -227,5 +229,16 @@ void thread_init(void) {
    idle_thread = thread_start("idle", 10, idle, NULL);
 
    put_str("thread_init done\n");
+}
+
+/* init进程 */
+void init(void) {
+    uint32_t ret_pid = fork();
+    if(ret_pid) {
+        printf("i am father, my pid is %d, child pid is %d\n", getpid(), ret_pid);
+    } else {
+        printf("i am child, my pid is %d, ret pid is %d\n", getpid(), ret_pid);
+    }
+    while(1);
 }
 

@@ -232,7 +232,7 @@ void thread_init(void) {
 }
 
 /* init进程 */
-void init(void) {
+static void init(void) {
     uint32_t ret_pid = fork();
     if(ret_pid) {
         printf("i am father, my pid is %d, child pid is %d\n", getpid(), ret_pid);

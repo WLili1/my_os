@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fs/fs.c" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fs/fs.h" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <workItem from="1639654010355" duration="16219000" />
       <workItem from="1640016516817" duration="6417000" />
       <workItem from="1640415306818" duration="4600000" />
-      <workItem from="1640454456930" duration="23923000" />
+      <workItem from="1640454456930" duration="24626000" />
     </task>
     <servers />
   </component>

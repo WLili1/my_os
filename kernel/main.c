@@ -10,6 +10,8 @@
 #include "memory.h"
 #include "../fs/fs.h"
 #include "string.h"
+#include "../fs/fs.h"
+#include "../fs/dir.h"
 
 void k_thread_a(void*);
 void k_thread_b(void*);

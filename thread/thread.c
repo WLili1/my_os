@@ -12,6 +12,8 @@
 #include "../lib/stdio.h"
 #include "../shell/shell.h"
 #include "../lib/user/assert.h"
+#include "../fs/fs.h"
+#include "../fs/file.h"
 
 struct task_struct* main_thread;    // 主线程PCB
 struct task_struct* idle_thread;    // idle线程
@@ -235,7 +237,7 @@ static void pad_print(char* buf, int32_t buf_len, void* ptr, char format) {
 }
 
 /* 用于在list_traversal函数中的回调函数,用于针对线程队列的处理 */
-static bool elem2thread_info(struct list_elem* pelem, int arg UNUSED) {
+static bool elem2thread_info(struct list_elem* pelem, int arg) {
     struct task_struct* pthread = elem2entry(struct task_struct, all_list_tag, pelem);
     char out_pad[16] = {0};
 

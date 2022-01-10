@@ -6,23 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/user/assert.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/user/assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shell/shell.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shell/shell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fs/fs.c" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fs/fs.h" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kernel/print.S" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kernel/print.S" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kernel/print.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kernel/print.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/thread/thread.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprog/syscall-init.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/syscall-init.c" afterDir="false" />
-    </list>
+    <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +65,7 @@
       <workItem from="1639654010355" duration="16219000" />
       <workItem from="1640016516817" duration="6417000" />
       <workItem from="1640415306818" duration="4600000" />
-      <workItem from="1640454456930" duration="31999000" />
+      <workItem from="1640454456930" duration="32139000" />
     </task>
     <servers />
   </component>

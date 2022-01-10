@@ -20,8 +20,8 @@ void u_prog_b(void);
 int main(void) {
    put_str("I am kernel\n");
     init_all();
-/********  测试代码  ********/
-/********  测试代码  ********/
+    cls_screen();
+    console_put_str("[rabbit@localhost /]$ ");
    while(1);
    return 0;
 }

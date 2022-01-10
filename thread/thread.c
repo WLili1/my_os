@@ -10,6 +10,8 @@
 #include "sync.h"
 #include "../lib/user/syscall.h"
 #include "../lib/stdio.h"
+#include "../shell/shell.h"
+#include "../lib/user/assert.h"
 
 struct task_struct* main_thread;    // 主线程PCB
 struct task_struct* idle_thread;    // idle线程
@@ -215,12 +217,12 @@ void thread_yield(void) {
 /* init进程 */
 static void init(void) {
     uint32_t ret_pid = fork();
-    if(ret_pid) {
-        printf("i am father, my pid is %d, child pid is %d\n", getpid(), ret_pid);
-    } else {
-        printf("i am child, my pid is %d, ret pid is %d\n", getpid(), ret_pid);
+    if(ret_pid) {  // 父进程
+        while(1);
+    } else {	  // 子进程
+        my_shell();
     }
-    while(1);
+    panic("init: should not be here");
 }
 
 /* 初始化线程环境 */

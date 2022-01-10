@@ -98,7 +98,6 @@ struct task_struct {
    uint32_t stack_magic;	 // 用这串数字做栈的边界标记,用于检测栈的溢出
 };
 
-
 extern struct list thread_ready_list;
 extern struct list thread_all_list;
 
@@ -112,4 +111,5 @@ void thread_block(enum task_status stat);
 void thread_unblock(struct task_struct* pthread);
 void thread_yield(void);
 pid_t fork_pid(void);
+void sys_ps(void);
 #endif

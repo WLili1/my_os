@@ -27,7 +27,7 @@ int main(void) {
     init_all();
 
     /*************    写入应用程序    *************/
-   uint32_t file_size = 4777;
+   uint32_t file_size = 94740;
    uint32_t sec_cnt = DIV_ROUND_UP(file_size, 512);
    struct disk* sda = &channels[0].devices[0];
    void* prog_buf = sys_malloc(file_size);

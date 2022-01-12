@@ -7,21 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb9c5f-7b39-4082-8081-b5bc8399560a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/command/cat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/start.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprog/wait_exit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userprog/wait_exit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/pipe.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shell/pipe.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/cat.c" beforeDir="false" afterPath="$PROJECT_DIR$/command/cat.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/command/compile.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/prog_no_arg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/memory.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/memory.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/memory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user/syscall.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/thread/thread.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/thread/thread.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprog/syscall-init.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/syscall-init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/ioqueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/device/ioqueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device/ioqueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/device/ioqueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/fs.c" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/fs.h" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/buildin_cmd.c" beforeDir="false" afterPath="$PROJECT_DIR$/shell/buildin_cmd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/buildin_cmd.h" beforeDir="false" afterPath="$PROJECT_DIR$/shell/buildin_cmd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/shell/shell.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprog/fork.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/fork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprog/wait_exit.c" beforeDir="false" afterPath="$PROJECT_DIR$/userprog/wait_exit.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1639654010355" duration="16219000" />
       <workItem from="1640016516817" duration="6417000" />
       <workItem from="1640415306818" duration="4600000" />
-      <workItem from="1640454456930" duration="44658000" />
+      <workItem from="1640454456930" duration="46405000" />
     </task>
     <servers />
   </component>

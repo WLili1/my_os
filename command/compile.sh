@@ -11,7 +11,7 @@ if [[ ! -d "../lib" || ! -d "../build" ]];then
    exit
 fi
 
-BIN="cat"
+BIN="prog_pipe"
 CFLAGS="-Wall -c -fno-builtin -W -Wstrict-prototypes \
       -Wmissing-prototypes -Wsystem-headers"
 LIBS="-I ../lib/ -I ../lib/kernel/ -I ../lib/user/ -I \
